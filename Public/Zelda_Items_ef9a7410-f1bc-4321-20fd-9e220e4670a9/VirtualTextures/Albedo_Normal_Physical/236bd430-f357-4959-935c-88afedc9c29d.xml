@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackedTexture>
+  <Layers>
+    <Layer type="Albedo" source="($DATA)/Public/($MOD)/VirtualTextures/WPN_Master_Sword_UNQ_BM.DDS" />
+    <Layer type="Normal" source="($DATA)/Public/($MOD)/VirtualTextures/WPN_Master_Sword_UNQ_NM.DDS" />
+    <Layer type="Physical" source="($DATA)/Public/($MOD)/VirtualTextures/WPN_Master_Sword_UNQ_PM.DDS" />
+  </Layers>
+</StackedTexture>

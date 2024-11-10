@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8252baee-dda8-4737-afc7-508f723cfd84" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Sacred_Luster_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c43e0aag77d3gf0cfg705ag15a4e1a93bea" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b1bdc00g9e68ga482gb9f2g139d804436eb" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Radiant)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Radiant);IF(Tagged('MONSTROSITY', context.Target)):CharacterWeaponDamage(1d8,Radiant);IF(Tagged('UNDEAD', context.Target)):CharacterWeaponDamage(1d8,Radiant);IF(Tagged('FIEND', context.Target)):CharacterWeaponDamage(1d8,Radiant);IF(Tagged('ABERRATION', context.Target)):CharacterWeaponDamage(1d8,Radiant);" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Luster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea3f55bb-4680-4233-87a9-d83fa978d72e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Blade_of_Evils_Bane_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b92afc14-bc7a-4a16-8799-f431f8db06ad" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5408742bgb296g2c81geeb0g03658af73742" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(Kplus8_Holy_Light, 100, -1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(Kplus8_Holy_Light)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d35dca90-dc70-4485-8954-8ea7cb818412" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Fi_Buffs" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h641882dcg0492gd408g2aa8g2115d1254f15" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e2850dbgaee0g6e66g710egdc3a7240bc16" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Perception);ExpertiseBonus(Perception);ProficiencyBonus(Skill,Investigation);ExpertiseBonus(Investigation);Advantage(Skill, Perception);Advantage(Skill, Investigation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f167f8c4-1c60-4940-9fe6-7f90235f63ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Fi_Sight_Buff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fa06ce7-5c0f-4470-ad7b-9232f025f76d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h22d4eeaagfe8ag2049g44dbgc22dbf6a34bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07b0bcddg4c96gd4a5g1ca5g9ec3241815f8" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a455a114-85c2-48c7-b645-d5bfd925e175" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Sacred_Luster_Force" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6ccd320g5f87g4c32ga385g430a3ce3822f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Force);IF(Tagged('MONSTROSITY', context.Target)):CharacterWeaponDamage(1d8,Force);IF(Tagged('UNDEAD', context.Target)):CharacterWeaponDamage(1d8,Force);IF(Tagged('FIEND', context.Target)):CharacterWeaponDamage(1d8,Force);IF(Tagged('ABERRATION', context.Target)):CharacterWeaponDamage(1d8,Force);" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Luster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8252baee-dda8-4737-afc7-508f723cfd84" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a52f4139-c4e1-411c-99b2-77a91efcf5aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_Sword_Fi_Buffs" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d35dca90-dc70-4485-8954-8ea7cb818412" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19b4f580gbcc2g3f58gf455g525576e7f4c4" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Perception,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="204357a6-3597-47d8-ad82-85a4e4cf5a62" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_Sword_Fi_Sight_Buff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f167f8c4-1c60-4940-9fe6-7f90235f63ff" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb422cd56gea72g4c43g15c5g09d7418a01e7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(6);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c0e02bd0-f4dc-45b7-89c7-b503f2ba67bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_Longsword_Fi_Buffs" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a52f4139-c4e1-411c-99b2-77a91efcf5aa" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd83d5f9gb80bgee94g1565g6e941dab3238" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Perception);ProficiencyBonus(Skill,Investigation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6eb751c-0a4a-4595-af80-0f28142e23f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_Longsword_Sacred_Luster_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8252baee-dda8-4737-afc7-508f723cfd84" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Radiant)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d4,Radiant);IF(Tagged('MONSTROSITY', context.Target)):CharacterWeaponDamage(1d4,Radiant);IF(Tagged('UNDEAD', context.Target)):CharacterWeaponDamage(1d4,Radiant);IF(Tagged('FIEND', context.Target)):CharacterWeaponDamage(1d4,Radiant);IF(Tagged('ABERRATION', context.Target)):CharacterWeaponDamage(1d4,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd01bb46-8746-4058-8846-b1507a064111" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_Longsword_Sacred_Luster_Passive_Force" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a455a114-85c2-48c7-b645-d5bfd925e175" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Force)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d4,Force);IF(Tagged('MONSTROSITY', context.Target)):CharacterWeaponDamage(1d4,Force);IF(Tagged('UNDEAD', context.Target)):CharacterWeaponDamage(1d4,Force);IF(Tagged('FIEND', context.Target)):CharacterWeaponDamage(1d4,Force);IF(Tagged('ABERRATION', context.Target)):CharacterWeaponDamage(1d4,Force);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f2b2099-f8c5-4bc8-9a2e-76e8cb9f3e37" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_White_Sword_Sacred_Luster_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6eb751c-0a4a-4595-af80-0f28142e23f3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Radiant)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d6,Radiant);IF(Tagged('MONSTROSITY', context.Target)):CharacterWeaponDamage(1d6,Radiant);IF(Tagged('UNDEAD', context.Target)):CharacterWeaponDamage(1d6,Radiant);IF(Tagged('FIEND', context.Target)):CharacterWeaponDamage(1d6,Radiant);IF(Tagged('ABERRATION', context.Target)):CharacterWeaponDamage(1d6,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4efef81-2b53-4efc-b916-33cfa70d41f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_White_Sword_Sacred_Luster_Passive_Force" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fd01bb46-8746-4058-8846-b1507a064111" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(1d6,Force);IF(Tagged('MONSTROSITY', context.Target)):CharacterWeaponDamage(1d6,Force);IF(Tagged('UNDEAD', context.Target)):CharacterWeaponDamage(1d6,Force);IF(Tagged('FIEND', context.Target)):CharacterWeaponDamage(1d6,Force);IF(Tagged('ABERRATION', context.Target)):CharacterWeaponDamage(1d6,Force);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d265507-cf12-495b-a6e4-62f23b8fc93e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_White_Sword_Fi_Buffs" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0e02bd0-f4dc-45b7-89c7-b503f2ba67bb" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6897197g79fbg495eg95d5g85085278dd82" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Perception);ProficiencyBonus(Skill,Investigation);Advantage(Skill, Perception);Advantage(Skill, Investigation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5313b1b5-8f21-4caf-9334-469d932fdce4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_White_Sword_Fi_Sight_Buff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="204357a6-3597-47d8-ad82-85a4e4cf5a62" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(12)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

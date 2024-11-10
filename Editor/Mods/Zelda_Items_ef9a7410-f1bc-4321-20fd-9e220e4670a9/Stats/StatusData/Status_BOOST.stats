@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e65093de-a32d-4212-b114-b0b4047ab0d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Holy_Light" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="adb1f653-05df-4da6-b6dc-ccf5306adcf1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0153510g0092g0003ga395g6751a5a83360" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(3,false,0.1,true)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

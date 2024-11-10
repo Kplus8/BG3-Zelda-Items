@@ -1,0 +1,17 @@
+new entry "OBJ_Farore_Emerald"
+type "Object"
+using "OBJ_Onyx"
+data "RootTemplate" "9de34b07-6149-4e98-875a-3c90f76f6050"
+data "Rarity" "Legendary"
+data "ObjectCategory" "Zelda_Item"
+
+new entry "OBJ_Nayru_Sapphire"
+type "Object"
+using "OBJ_Farore_Emerald"
+data "RootTemplate" "200bfe57-616e-4dd5-a4ff-c587bcf8e47a"
+
+new entry "OBJ_Din_Ruby"
+type "Object"
+using "OBJ_Farore_Emerald"
+data "RootTemplate" "220d7e3b-be2f-407f-b8d3-745597dc637a"
+

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="habb5a304g1260g98a8g9feege03d9fa0d2c4" version="8">Blade of Evils Bane.</content>
+  <content contentuid="hfd376cd8g3c58gf3e7g23f9g26cbecb5372d" version="7">Master Sword</content>
+  <content contentuid="h9c43e0aag77d3gf0cfg705ag15a4e1a93bea" version="1">Sacred Luster</content>
+  <content contentuid="h8b1bdc00g9e68ga482gb9f2g139d804436eb" version="3">Melee weapon attacks deal an additional [1], doubled against Fiends, Undead, Aberrations, or Monstrosities.</content>
+  <content contentuid="h5408742bgb296g2c81geeb0g03658af73742" version="1">Blade of Evil's Bane</content>
+  <content contentuid="hc0153510g0092g0003ga395g6751a5a83360" version="1">Blade of Evil's Bane</content>
+  <content contentuid="ha259ec67g9a64g4321g5574g5a69b2d890fb" version="1">Skyward Strike</content>
+  <content contentuid="h38104309g5eabga8b8gd278g919b9a636156" version="1">Holding your weapon aloft, you send a blade of energy at your target. &lt;br&gt;&lt;br&gt;This attack deals [1] at a target within [2].</content>
+  <content contentuid="h641882dcg0492gd408g2aa8g2115d1254f15" version="1">Slumbering Sentience</content>
+  <content contentuid="h3e2850dbgaee0g6e66g710egdc3a7240bc16" version="1">The passive intelligence of the sword provides greater awareness. Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception and Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is doubled for Perception and Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h22d4eeaagfe8ag2049g44dbgc22dbf6a34bd" version="1">Slumbering Sentience's Sight</content>
+  <content contentuid="h07b0bcddg4c96gd4a5g1ca5g9ec3241815f8" version="1">The bearer can see in the dark up to [1] and cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="ha6ccd320g5f87g4c32ga385g430a3ce3822f" version="1">Sacred Luster</content>
+  <content contentuid="h80c8b0ddgdb2bg2869gd55dg741912b65deb" version="1">Your attacks are suffused with divine might.&lt;br&gt;&lt;br&gt;Melee weapon attacks deal an additional [1].</content>
+  <content contentuid="h7ea5c075gfafeg8215g1f4cg0c9f7fa839b1" version="7">Goddess Sword</content>
+  <content contentuid="hd9108a2age90bg1c60gc0b2g9248d3eb322d" version="7">Forged and wielded by the goddess Hylia in a long-forgotten age.</content>
+  <content contentuid="h19b4f580gbcc2g3f58gf455g525576e7f4c4" version="1">The passive intelligence of the sword provides greater awareness. You have a +[1] bonus to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="hb422cd56gea72g4c43g15c5g09d7418a01e7" version="1">The bearer can see in the dark up to [1].</content>
+  <content contentuid="hcd83d5f9gb80bgee94g1565g6e941dab3238" version="1">The passive intelligence of the sword provides greater awareness. Gain &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; for Perception and Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h9955713ag3d48g19deg609agba61eb7dd167" version="3">Goddess Longsword</content>
+  <content contentuid="h76dd51dfge0b3ge50egabd0g4efb8d484772" version="3">An improved sword once wielded by the goddess Hylia.</content>
+  <content contentuid="hd6897197g79fbg495eg95d5g85085278dd82" version="1">The passive intelligence of the sword provides greater awareness. Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency&lt;/LSTag&gt; on Perception and Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h3593fe81g1976g9765ga9begcba52dce6a4f" version="1">Goddess White Sword</content>
+  <content contentuid="h1be559efg61bcgf570g489dg4fd31269d536" version="1">A sword blessed by ancient goddesses and believed to be inhabited by a sleeping spirit.</content>
+  <content contentuid="h3883f1b5g5751g1dc0gacc9g69e67fc63b59" version="4">Farore's Emerald</content>
+  <content contentuid="ha24ce294gd9b0gd130gb2e2gb994722ddb96" version="3">Holding this gem emboldens your courage.</content>
+  <content contentuid="he277a7efgf45cg5958g7771g318138d7e95b" version="2">Holding this gem strenghens your wisdom.</content>
+  <content contentuid="h45707dc1g28a8gc68ege596g655cc0ac70cd" version="1">Din's Ruby</content>
+  <content contentuid="hb0b1d988g2cceg5d78gae67g487b42bea7d7" version="1">Holding this gem fills you with surges of power.</content>
+  <content contentuid="h70a9deacge2cdg9260ga3c2g28fcb8ccf65a" version="1">Nayru's Sapphire</content>
+</contentList>

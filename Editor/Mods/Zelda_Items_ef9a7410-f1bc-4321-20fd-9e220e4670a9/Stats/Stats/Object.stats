@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0292de5a-c130-426b-90ae-3538052a75f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Farore_Emerald" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6df804fc-bf9b-485f-bfbd-46519d7715b8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9de34b07-6149-4e98-875a-3c90f76f6050" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Zelda_Item" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99d86e07-492b-4cdb-bc07-0ecb8db63929" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Nayru_Sapphire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0292de5a-c130-426b-90ae-3538052a75f6" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="200bfe57-616e-4dd5-a4ff-c587bcf8e47a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2989af0-bf96-4314-a2a0-59e8914e979c" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Din_Ruby" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0292de5a-c130-426b-90ae-3538052a75f6" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="220d7e3b-be2f-407f-b8d3-745597dc637a" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

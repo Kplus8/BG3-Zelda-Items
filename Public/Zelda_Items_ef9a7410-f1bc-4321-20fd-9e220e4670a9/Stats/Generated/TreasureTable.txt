@@ -1,0 +1,27 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_Goddess Sword",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Farore_Emerald",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Nayru_Sapphire",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Din_Ruby",1,0,0,0,0,0,0,0
+new treasuretable "DEN_Weaponsmith_Trade"
+CanMerge 1
+new subtable "-1"
+object category "I_Goddess Sword",1,0,0,0,0,0,0,0
+new treasuretable "DEN_Volo_Adventure"
+CanMerge 1
+new subtable "-1"
+object category "I_OBJ_Farore_Emerald",1,0,0,0,0,0,0,0
+new treasuretable "HAV_Weaponsmith_Trade"
+CanMerge 1
+new subtable "-1"
+object category "I_OBJ_Nayru_Sapphire",1,0,0,0,0,0,0,0
+new treasuretable "SHA_NightsongReward"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_Din_Ruby",1,0,0,0,0,0,0,0

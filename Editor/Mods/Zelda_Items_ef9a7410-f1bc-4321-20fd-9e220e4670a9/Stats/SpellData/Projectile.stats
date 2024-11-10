@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="67731907-4ad8-4be6-9326-d6f5b982140e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f97885f8-4b27-4385-97e1-09a619e2c130" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Skyward_Strike" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8, Force);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="98f6e27e-d223-4618-89cf-de7bc7abe7f0" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GuidingBolt" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha259ec67g9a64g4321g5574g5a69b2d890fb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h38104309g5eabga8b8gd278g919b9a636156" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Force);Distance(18)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8, Force);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedWeaponAttack;" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_PaladinBuff_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Radiant_DivineSmite_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;c12054bc-4d96-47c5-8483-989afde03bd4,,;20aaabc2-067d-4355-86a0-40901d3938d8,,;2a3d2709-24d3-4c6d-ae25-546d1fd4ccb2,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;4c38bf59-cfbd-4389-954f-81290ca30476,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3561c48f-d28e-40a4-8b63-aa4565cc03a8" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5e7c5840-97dc-4e78-aec9-28bbaae3402e" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;c12054bc-4d96-47c5-8483-989afde03bd4,,;20aaabc2-067d-4355-86a0-40901d3938d8,,;2a3d2709-24d3-4c6d-ae25-546d1fd4ccb2,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;4c38bf59-cfbd-4389-954f-81290ca30476,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="3a1161a5-ecfe-40f1-ac2a-c75a5e4d147e" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec4d9a91-f669-46eb-b2d9-6626e72e6d33" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_Sword_Skyward_Strike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f97885f8-4b27-4385-97e1-09a619e2c130" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6, Force);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force);Distance(18)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6, Force);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19ecf18b-30b1-4d4b-bd36-42eba90660f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_Longsword_Skyward_Strike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ec4d9a91-f669-46eb-b2d9-6626e72e6d33" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8, Force);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force);Distance(18)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8, Force);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e876bf57-0aaa-4524-a0ae-96becb525f9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_Goddess_White_Sword_Skyward_Strike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19ecf18b-30b1-4d4b-bd36-42eba90660f6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6, Force);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force);Distance(18)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6, Force);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

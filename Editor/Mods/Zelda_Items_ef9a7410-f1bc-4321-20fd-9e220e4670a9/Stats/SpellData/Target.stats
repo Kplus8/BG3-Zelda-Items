@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed60d982-16eb-4fc2-abc5-5978cf922dc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="GreaterRestoration_MS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b9f427e-a3d0-493d-8256-7ed588e8561c" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c35be6a-5b17-416e-b349-328bba5cdbd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="LesserRestoration_MS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="644c16b1-9da8-4d8c-b27c-978a9d6c9b1b" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30b699d6-9753-4647-a853-b55e7c8e883a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ProtectionFromEvilAndGood_MS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35f42350-2de9-456e-a036-b858537804fe" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff64a7b3-5920-4d2d-8135-ddc0eebed5db" />
+        <field name="Name" type="NameTableFieldDefinition" value="RemoveCurse_MS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12e1f07e-0c58-4f9e-b7cd-cbf6019d7140" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

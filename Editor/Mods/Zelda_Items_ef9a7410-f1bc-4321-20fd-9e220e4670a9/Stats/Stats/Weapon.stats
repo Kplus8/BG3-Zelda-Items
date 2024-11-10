@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65d2bf7f-bb57-4085-af9e-6b3b70902c77" />
+        <field name="Name" type="NameTableFieldDefinition" value="Master Sword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10a873f8-9736-49d7-975f-128ad5f7b3bf" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7a9eeeb7-ee5f-4d49-b352-09253cc7c9ac" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DispelEvilAndGood_MS);UnlockSpell(Target_GreaterRestoration_MS);UnlockSpell(Target_LesserRestoration_MS);UnlockSpell(Target_ProtectionFromEvilAndGood_MS);UnlockSpell(Target_RemoveCurse_MS);UnlockSpell(Projectile_Kplus8_Skyward_Strike);" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Versatile;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Kplus8_Blade_of_Evils_Bane_Passive;Kplus8_Sacred_Luster_Passive;Kplus8_Sacred_Luster_Force;MAG_ArcaneEnchantment_Passive;Kplus8_Fi_Buffs;Kplus8_Fi_Sight_Buff;" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03611a3f-120f-402b-9143-4573c274b888" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goddess Sword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c67e74d5-dcfe-4f0e-99d7-97e891a9158a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ProtectionFromEvilAndGood_MS);UnlockSpell(Projectile_Kplus8_Goddess_Sword_Skyward_Strike);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Kplus8_Blade_of_Evils_Bane_Passive;Kplus8_Goddess_Sword_Fi_Buffs;Kplus8_Goddess_Sword_Fi_Sight_Buff;" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f960330b-54e5-44a0-a92a-adfd00789527" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goddess Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bc4a1eb6-dd53-40ee-b720-09991b0c1833" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="03cd1199-56f3-46b4-b432-8590782e2258" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_LesserRestoration_MS);UnlockSpell(Target_ProtectionFromEvilAndGood_MS);UnlockSpell(Projectile_Kplus8_Goddess_Longsword_Skyward_Strike);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Kplus8_Blade_of_Evils_Bane_Passive;Kplus8_Goddess_Longsword_Sacred_Luster_Passive;Kplus8_Goddess_Longsword_Sacred_Luster_Passive_Force;Kplus8_Goddess_Longsword_Fi_Buffs;Kplus8_Goddess_Sword_Fi_Sight_Buff;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0df3ab36-ee9f-40a8-9f91-6d25f763653e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goddess White Sword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bc4a1eb6-dd53-40ee-b720-09991b0c1833" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ac26a778-a3a4-4c28-85ec-d15e3bc9053a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_LesserRestoration_MS);UnlockSpell(Target_ProtectionFromEvilAndGood_MS);UnlockSpell(Target_RemoveCurse_MS);UnlockSpell(Projectile_Kplus8_Goddess_White_Sword_Skyward_Strike);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Kplus8_Blade_of_Evils_Bane_Passive;Kplus8_Goddess_White_Sword_Sacred_Luster_Passive;Kplus8_Goddess_White_Sword_Sacred_Luster_Passive_Force;MAG_ArcaneEnchantment_Lesser_Passive;Kplus8_Goddess_White_Sword_Fi_Buffs;Kplus8_Goddess_White_Sword_Fi_Sight_Buff;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

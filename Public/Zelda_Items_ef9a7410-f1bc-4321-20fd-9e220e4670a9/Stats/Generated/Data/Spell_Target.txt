@@ -1,0 +1,28 @@
+new entry "Target_GreaterRestoration_MS"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_GreaterRestoration"
+data "Cooldown" "OncePerRestPerItem"
+data "UseCosts" "ActionPoint:1;"
+
+new entry "Target_LesserRestoration_MS"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_LesserRestoration"
+data "Cooldown" "OncePerRestPerItem"
+data "UseCosts" "ActionPoint:1;"
+
+new entry "Target_ProtectionFromEvilAndGood_MS"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ProtectionFromEvilAndGood"
+data "Cooldown" "OncePerRestPerItem"
+data "UseCosts" "ActionPoint:1;"
+
+new entry "Target_RemoveCurse_MS"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_RemoveCurse"
+data "Cooldown" "OncePerRestPerItem"
+data "UseCosts" "ActionPoint:1;"
+

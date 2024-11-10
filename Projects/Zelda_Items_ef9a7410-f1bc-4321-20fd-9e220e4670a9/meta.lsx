@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="ef9a7410-f1bc-4321-20fd-9e220e4670a9"/>
+            <attribute id="Name" type="LSString" value="Zelda_Items"/>
+            <attribute id="UUID" type="LSString" value="158e1dc6-0830-9afd-2621-e40356a7d746"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

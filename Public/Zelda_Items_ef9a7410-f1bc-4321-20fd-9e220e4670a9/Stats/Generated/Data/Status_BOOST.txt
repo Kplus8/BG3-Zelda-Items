@@ -1,0 +1,8 @@
+new entry "Kplus8_Holy_Light"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_LATHANDERS_LIGHT"
+data "DisplayName" "hc0153510g0092g0003ga395g6751a5a83360;1"
+data "DescriptionParams" "Distance(3)"
+data "Boosts" "GameplayLight(3,false,0.1,true)"
+

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="21465eb6-ebaf-4455-9f29-369759e000a9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0c8bff3-9eef-4dbe-8f55-198e3302444c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_GS_to_GLS" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="UNI_Smithing_Hammer_UC" />
+        <field name="Combine 1" type="EnumerationTableFieldDefinition" value="Base" enumeration_type_name="IngredientCombineType" version="1" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="Goddess Sword" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Consume" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 3" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 3" type="StringTableFieldDefinition" value="OBJ_Farore_Emerald" />
+        <field name="Transform 3" type="EnumerationTableFieldDefinition" value="Consume" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Result 1" type="StringTableFieldDefinition" value="Goddess Longsword" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ac72ead-1665-495f-a394-fe0f8131f547" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_GLS_to_GWS" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="UNI_Smithing_Hammer_UC" />
+        <field name="Combine 1" type="EnumerationTableFieldDefinition" value="Base" enumeration_type_name="IngredientCombineType" version="1" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="Goddess Longsword" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Consume" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 3" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 3" type="StringTableFieldDefinition" value="OBJ_Nayru_Sapphire" />
+        <field name="Transform 3" type="EnumerationTableFieldDefinition" value="Consume" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Result 1" type="StringTableFieldDefinition" value="Goddess White Sword" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2992dc68-b1a9-48e5-a4f0-a6ce209f3242" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kplus8_GWS_to_MS" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="UNI_Smithing_Hammer_UC" />
+        <field name="Combine 1" type="EnumerationTableFieldDefinition" value="Base" enumeration_type_name="IngredientCombineType" version="1" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="Goddess White Sword" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Consume" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 3" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 3" type="StringTableFieldDefinition" value="OBJ_Din_Ruby" />
+        <field name="Transform 3" type="EnumerationTableFieldDefinition" value="Consume" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Result 1" type="StringTableFieldDefinition" value="Master Sword" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
